@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Ping Pong score keeper</title>
+    <link rel="stylesheet" href="scorekeeper.css">
+  </head>
+  <body>
+<img src="https://nwscdn.com/media/wysiwyg/3kf/Bat-and-ball-included-in-the-set.jpg" alt="Ping Pong">
+<h1> <span id="p1Display">0</span> to <span id="p2Display">0</span> </h1>
+<p>Use buttons below to keep score <br>
+   Win by two</p>
+
+<p> <b>Playing to</b>  <select id="tgtScore" name="tgtScore">
+  <option value=""></option>
+  <option value="5">5</option>
+  <option value="6">6</option>
+  <option value="7">7</option>
+  <option value="8">8</option>
+  <option value="9">9</option>
+  <option value="10">10</option>
+  <option value="11">11</option>
+
+</select>
+ </p>
+<button type="button" name="player1" id="player1">+1 Player One</button>
+<button type="button" name="player2" id="player2">+1 Player two</button>
+<button type="button" name="reset" id="reset">Reset</button>
+<script src="scorekeeper.js" charset="utf-8"></script>
+  </body>
+</html>

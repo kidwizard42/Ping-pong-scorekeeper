@@ -1,0 +1,53 @@
+body{
+  text-align:center;
+}
+button{
+  width:116px;
+  height:30px;
+  color:white
+}
+
+img{
+  width:350px;
+  height:350px;
+}
+
+p{
+  font-size: 1.2rem;
+}
+
+#player1{
+  background-color: lightgreen;
+  border-radius: 8px;
+
+}
+#player1:hover{
+  background-color: green;
+
+}
+
+#player2{
+  background-color: #6ddccf;
+  border-radius: 8px;
+
+}
+#player2:hover{
+  background-color: blue;
+}
+
+#reset{
+  background-color: #f05454;
+  border-radius: 8px;
+
+}
+#reset:hover{
+  background-color: #ec0101;
+}
+
+.winner{
+  color:green;
+}
+
+.loser{
+  color:red;
+}
